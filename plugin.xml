@@ -40,6 +40,8 @@
             <uses-sdk android:minSdkVersion="19" />
         </edit-config>
 
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+
     </platform>
 
     <platform name="wp8">
